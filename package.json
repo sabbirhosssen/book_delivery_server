@@ -1,10 +1,10 @@
 {
-  "name": "book_delivery_server",
+  "name": "bookdeliveryapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "16.x"
+    "node": "16.20.1"
   },
   "scripts": {
     "start": "node index.js",
@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongodb": "^4.4.1",
+    "mongodb": "4.1",
     "nodemon": "^2.0.15"
   }
 }
